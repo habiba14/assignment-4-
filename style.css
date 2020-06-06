@@ -1,0 +1,392 @@
+.navbar {
+    font-size: 18px;
+    background-image: linear-gradient(260deg,   #3da2e6e1 0%, #ee6c16ce  100%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+ margin-top: 5px;
+ /* height: 65px; */
+  }
+  .nav-link {
+    color: white !important;
+  }
+  .nav-link:hover {
+    color: orange !important;
+  }
+  .link {
+    color: white !important;
+  }
+  .link:hover {
+    color: orange !important;
+  }
+  .link>a {
+    color: white !important;
+  }
+  .link >a:hover {
+    color: orange !important;
+  }
+  .dropdown >a:hover { 
+    color: orange;
+  }
+  .dropdown >a:active { 
+  
+     color: orange;
+  }
+  .dropdown-toggle :active{
+  background-color: white;
+  }
+  .dropdown-menu >a:active { 
+    color: orange;
+    background-color: white;
+  }
+  .dropdown-menu >a:hover { 
+    color: white;
+    background-color: orange;
+  }
+
+  .heading {
+    color:  orange;
+  }
+  /* .heading:hover {
+    color: rgba(255, 166, 0, 0.63);
+  } */
+
+  .text {
+    color: gray;
+  }
+  .text1 {
+    color: gray;
+    text-align: center !important;
+  }
+
+  
+   .picture {
+    box-shadow:  5px  5px 3px grey;
+  }
+  @media screen and (max-width: 600px) {
+    .picture {
+     text-align: center !important;
+     width: 100%;
+     margin-top: 20px;
+
+    }
+    }
+ 
+  
+  /* .picture:hover {
+    border: 3px solid orange;
+    cursor: pointer;
+  }
+  .picture:active {
+    border: 3px solid orange;
+    cursor: pointer;
+  } */
+  .button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color:orange;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px grey;
+  }
+  
+  .button:hover {background-color:  rgba(255, 166, 0, 0.63);}
+  
+  .button:active {
+    background-color: lightsalmon;
+    box-shadow: 0 5px grey;
+    transform: translateY(4px);
+  }
+  .button>a {
+    text-decoration: none;
+    color: white;
+  }
+  .button>a:hover{
+    text-decoration: none;
+    color:orange;
+  }
+  .button>a:active{
+    text-decoration: none;
+    color:orange;
+  }
+  
+  .heading1 {
+    color:  orange;
+    text-align: center;
+  }
+  /* .heading1:hover {
+    color: rgba(255, 166, 0, 0.63);
+  } */
+  .heading1 > a {
+    color:  orange;
+    text-align: center;
+    text-decoration: none;
+  }
+  .heading1> a:hover {
+    color: rgba(255, 166, 0, 0.63);
+    text-decoration: none;
+    
+  }
+  .card{
+    width: 250px;
+    height: 350px;
+    /* box-shadow:  5px  5px 3px orange;  */
+    margin-top: 20px;
+    border: 2px solid gainsboro;
+    box-shadow: 9px 9px grey;
+  }
+  /* @media screen and (min-width: 600px) {
+    .paintings {
+     text-align: center !important;
+     width: 100%;
+    }
+    }
+   */
+  @media screen and (max-width: 600px) {
+    .card {
+     text-align: center !important;
+     width: 100%;
+
+    }
+    }
+    .card1{
+      width: 250px;
+      height: 350px;
+      /* box-shadow:  5px  5px 3px orange;  */
+      margin-top: 20px;
+      border: 2px solid gainsboro;
+      box-shadow: 9px 9px grey;
+    }
+
+    @media screen and (max-width: 600px) {
+      .card1 {
+       text-align: center !important;
+       width: 100%;
+       height: 400px;
+  
+      }
+      }
+  
+  /* .card>a{
+    width: 250px;
+    height: 350px;
+    /* box-shadow:  5px  5px 3px orange;  */
+    /* margin-top: 20px;
+    border: 2px solid gainsboro;
+  }
+   .card>a:hover {
+    border: 3px solid orange;
+    cursor: pointer;
+  } 
+  .card>a:active {
+    border: 3px solid orange;
+    cursor: pointer;
+  }
+  .card>:hover {
+    border: 3px solid orange;
+    cursor: pointer;
+  } 
+  .card>:active {
+    border: 3px solid orange;
+    cursor: pointer;
+  } */
+  */
+  .card-text {
+    color: grey;
+    font-weight: bold;
+  }
+
+  .paintings {
+    margin-top: 20px;
+    /* box-shadow: 0 9px grey; */
+  }
+h4 {
+  color: orange;
+}
+h4:hover {
+  color: lightsalmon;
+}
+h4 > a {
+  color: orange;
+}
+h4 > a:hover  {
+  color: lightsalmon;
+  text-decoration: none;
+}
+
+.service1,.service2,.service3 {
+
+  width: 250px;
+  height: 150px;
+  border: 2px solid gainsboro;
+  box-shadow:  4px  6px 5px grey;
+  text-align: center;
+  margin-top: 20px !important;
+  background-color: white;
+  padding-top: 50px;
+}
+ /* .link > a {
+
+  width: 250px;
+  height: 150px;
+  border: 2px solid gainsboro;
+  box-shadow:  4px  6px 5px grey;
+  text-align: center;
+  margin-top: 20px !important;
+  background-color: white;
+  padding-top: 50px;
+  text-decoration: none;
+} */
+.services{
+  justify-content: space-around;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.service1 >a:hover,.service2 >a:hover,.service3 >a:hover {
+  border: 2px solid orange;
+ cursor: pointer;
+ text-decoration: none;
+}
+
+.service1 >a:active,.service2> a:active,.service3> a:active {
+  border: 2px solid orange;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link >a:hover {
+  border: 2px solid orange;
+ cursor: pointer;
+ text-decoration: none;
+}
+
+.link >a:active{
+  border: 2px solid orange;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.service1:hover,.service2:hover,.service3:hover {
+  border: 2px solid orange;
+ cursor: pointer;
+}
+
+.service1:active,.service2:active,.service3:active {
+  border: 2px solid orange;
+  cursor: pointer;
+}
+.fa-paint-brush,.fa-pencil,.fa-cube,.fa-smile-o,.fa-glass{
+  font-size: 20px !important;
+  color: orange;
+}
+.fa-facebook,.fa-instagram,.fa-whatsapp {
+  color: white;
+  font-size: 20px !important;
+  padding: 20px;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-whatsapp:hover {
+  color: lightsalmon;
+  cursor: pointer;
+} 
+.footer1:hover {
+  color: black;
+}
+.footer1:active {
+  color: black;
+}
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+    
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container1 {
+  position: relative;
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 250px;
+  color: black;
+  font-size: 35px;
+  cursor: pointer;
+} 
+.fa-angle-up {
+  font-size: 10px !important;
+  color: white;
+}
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right : 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: orange;
+}

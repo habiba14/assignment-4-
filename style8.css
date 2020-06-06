@@ -1,0 +1,17 @@
+.card {
+    box-shadow: 10px 10px 10px grey !important;
+     text-align:center !important;
+    width: 800px !important;
+    height: 600px !important; 
+    /* margin-left: 200px; */
+    margin-left: 340px;
+}
+@media screen and (max-width: 1000px) {
+    .card {
+      width: 300px !important;
+     height: 350px !important;
+     text-align: center !important;
+     margin-left: 0px;
+    }
+  }
+  

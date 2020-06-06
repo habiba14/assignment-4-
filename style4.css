@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+    img {
+     width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .img1 {
+     width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+.centered {
+ font-size: 60px;
+}
+}

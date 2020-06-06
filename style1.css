@@ -1,0 +1,80 @@
+
+
+ .centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:  rgba(240, 78, 14, 0.575);
+    font-size: 60px;
+    font-weight: bold;
+}  
+.centered1 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:  rgba(240, 78, 14, 0.87);
+    font-size: 20px;
+    
+}
+.centered1 > .link1{
+    color:  rgba(240, 78, 14, 0.87);
+    text-decoration: none;
+}
+.centered1 > .link1:hover {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+}
+.centered1 > .link1:active {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+}   
+.centered1 > .link2:visited{
+    color: gray;
+    text-decoration: none;
+}
+.centered1 > .link2:hover {
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+.centered1 > .link2:active {
+    color:gray;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+.about-heading {
+    text-align: center;
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+} 
+.about-para {
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.about-para1 {
+    text-align: center;
+    font-size: 18px;
+    color: rgba(128, 128, 128, 0.726);
+    line-height: 25px;
+}
+@media screen and (max-width: 600px) {
+    .img1 {
+     width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+.centered {
+ font-size: 60px;
+ text-align: center;
+}
+}
